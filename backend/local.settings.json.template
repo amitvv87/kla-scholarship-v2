@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "SQL_SERVER": "your-server.database.windows.net",
+    "SQL_DATABASE": "urbanek-db",
+    "SQL_USER": "your-admin-username",
+    "SQL_PASSWORD": "your-admin-password",
+    "AZURE_STORAGE_CONNECTION_STRING": "your-storage-connection-string",
+    "JWT_SECRET": "your-jwt-secret-here"
+  },
+  "Host": {
+    "CORS": "*"
+  }
+}

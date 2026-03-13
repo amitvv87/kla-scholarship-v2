@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useAuth } from '../context/AuthContext'
 import axios from 'axios'
 import { API_BASE_URL } from '../config'
-import ReadOnlyApplicationView from './ReadOnlyApplicationView'
+import ReadOnlyApplicationView from '../components/ReadOnlyApplicationView'
 
 export default function ReviewApplications() {
   const { user } = useAuth()

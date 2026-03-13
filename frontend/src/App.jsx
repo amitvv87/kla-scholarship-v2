@@ -8,8 +8,8 @@ import ReviewApplications from './pages/ReviewApplications'
 
 function App() {
   return (
-    <AuthProvider>
-      <Router>
+    <Router>
+      <AuthProvider>
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
@@ -18,8 +18,8 @@ function App() {
           <Route path="/review" element={<ReviewApplications />} />
           <Route path="/" element={<Navigate to="/login" replace />} />
         </Routes>
-      </Router>
-    </AuthProvider>
+      </AuthProvider>
+    </Router>
   )
 }
 
